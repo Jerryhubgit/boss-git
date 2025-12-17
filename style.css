@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0,0,0,.1);
+    line-height: 2;
+}
+button{
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,.2);
+    cursor: pointer;
+    background-color: purple;
+    color: white;
+    margin: 30px;
+}
